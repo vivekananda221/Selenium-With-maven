@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="default" parallel="tests">
+	<paramete name="url" value="www.cleartrip.com">
+	</paramete>
+	<test name="c" verbose="2"> 
+		<classes>
+			<class name="testing.Parametersexample">
+				<parameter name="browsername" value="chrome">
+				</parameter>
+			</class>
+		</classes>
+	</test>
+</suite>

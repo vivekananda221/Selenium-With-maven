@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="mysute">
+	<test name="x">
+		<classes>
+			<class name="testing.NewTest1">
+			<methods>
+			    <include name="f"></include>
+			     <include name="f1"></include>
+			      <include name="f2"></include>
+			       <include name="f3"></include>
+				<exclude name="f"></exclude> // it will execute all expect f
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
