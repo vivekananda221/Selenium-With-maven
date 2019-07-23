@@ -11,7 +11,7 @@ public class newRc
 	public static void main(String[] args) 
 	{
 		WebDriver call = new ChromeDriver();
-		Selenium rc = new WebDriverBackedSelenium(call,"https://facebook.com");
+		
 	}
 
 }
